@@ -24,7 +24,4 @@ pipeline {
     }
 
   }
-  environment {
-    AA = 'bb'
-  }
 }

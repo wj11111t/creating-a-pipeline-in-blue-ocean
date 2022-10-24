@@ -18,9 +18,15 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('Test2') {
           steps {
             sh 'echo "this is test2"'
+          }
+        }
+
+        stage('Test3') {
+          steps {
+            echo 'this is test3'
           }
         }
 
